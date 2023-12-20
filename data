@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+# the number of views a youtube channel got
+#in the last 7 days
+
+views = [534,689,258,410,724,689,350]
+days = range(1,8)
+
+#plt.plot(x,y)
+plt.plot(days,views, label = 'Youtube Views',color = 'r',marker = 'o ',markerfacecolor = 'g', linestyle = 'dashed',
+         linewidth = 5)
+plt.xlabel('day No.')
+plt.ylabel('views')
+plt.legend(loc = 'upper right')
+plt.title('Youtube Views on a daily basis')
+plt.show()days = range(1,8)
+
+
